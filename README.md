@@ -5,7 +5,15 @@ Configuration builder that allows you to build configurations as Microsoft.Exten
 Merge the main application settings (appsettings.json) with another json document, environment variables or getting configurations from dotnet user-secrets.
 
 ## Install
-....
+
+Install latest: `pip install https://github.com/AMEST/py_configuration_builder/archive/refs/heads/main.tar.gz`
+
+## Builder methods
+
+* `add_json_file` - Add and merge configuration from json file
+* `add_environment_variables` - Add and merge configuration from environment variable
+* `add_user_secrets` - Add and merge configuration from dotnet user-secrets
+* `build` - Return complete version of configuration
 
 ## Usage
 

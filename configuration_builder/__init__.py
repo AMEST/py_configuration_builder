@@ -1,1 +1,1 @@
-from ConfigurationBuilder import ConfigurationBuilder
+from configuration_builder.ConfigurationBuilder import ConfigurationBuilder
