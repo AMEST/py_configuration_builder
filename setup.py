@@ -12,7 +12,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 setup(
     name='configuration_builder',
     packages=find_packages(include=['configuration_builder']),
-    version='0.1.0',
+    version='1.0.0',
     description='Configuration builder allow make app configuration',
     long_description=long_description,
     long_description_content_type="text/markdown",
